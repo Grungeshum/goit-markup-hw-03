@@ -177,7 +177,7 @@ a {
 .hero {
   text-align: center;
   background-color: #2f303a;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   padding-top: 200px;
   /* outline: 2px solid red; */
 }
@@ -189,8 +189,11 @@ a {
   font-size: 44px;
   line-height: 1.36;
   width: 696px;
+
   display: flex;
+  justify-content: space-around;
   margin: 0 auto;
+
   /* outline: 1px solid tomato; */
 }
 
@@ -239,6 +242,10 @@ a {
 /* Engage */
 
 .engage-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+
   margin: 0 auto;
   text-align: center;
 
@@ -261,13 +268,18 @@ a {
 
 .team {
   background-color: var(--secodary-bg-color);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  margin-bottom: 50px;
 }
 
 .team-list {
@@ -277,13 +289,17 @@ a {
 
 .team-item {
   margin-right: 30px;
-  margin-bottom: 94px;
 
   background-color: var(--primary-bg-color);
 }
 
 .team-item:nth-child(4) {
   margin-right: 0;
+}
+
+.team-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-name {
@@ -294,8 +310,6 @@ a {
   text-align: center;
 
   margin: 0 auto;
-  padding-top: 30px;
-  padding-bottom: 10px;
 }
 
 .position {
@@ -307,13 +321,14 @@ a {
   text-align: center;
 
   margin: 0 auto;
-  padding-bottom: 30px;
+  padding-top: 10px;
 }
 
 /* Portfolio */
 
 .portfolio {
-  margin-top: 140px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-title {
@@ -336,7 +351,6 @@ a {
   flex-wrap: wrap;
 
   margin-top: 50px;
-  margin-bottom: 48px;
 }
 
 .projects-title {
@@ -344,10 +358,6 @@ a {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
-  padding-top: 20px;
-  padding-bottom: 4px;
-  margin-left: 24px;
 }
 
 .projects-item {
@@ -356,6 +366,8 @@ a {
 }
 
 .item-border {
+  padding: 24px 20px;
+
   border-bottom: 1px solid rgba(238, 238, 238, 1);
   border-right: 1px solid rgba(238, 238, 238, 1);
   border-left: 1px solid rgba(238, 238, 238, 1);
@@ -375,8 +387,6 @@ a {
   line-height: 1.19;
 
   color: var(--secondary-text-color);
-
-  margin-left: 24px;
 }
 
 /* Button */
@@ -424,11 +434,8 @@ a {
 /* Footer */
 
 .main-footer {
-  background-color: var(--contrast-bg-color);
-}
-
-.footer {
   padding: 60px 0;
+  background-color: var(--contrast-bg-color);
 }
 
 .post-address {
